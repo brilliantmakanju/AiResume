@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+
+/*body{
+	scroll-snap-type: y mandatory;
+	scroll-snap-align:start;
+}*/
+
+
+@layer base{
+	html{
+		@apply scroll-smooth lg:snap-y lg:snap-mandatory overflow-x-hidden italic font-serif antialiased
+	}
+	body{
+		@apply bg-[#c6c3be]
+	}
+	h1{
+		@apply text-4xl
+	}
+	h2{
+		@apply text-3xl
+	}
+	h3{
+		@apply text-2xl
+	}
+}
+
+
+
+::-webkit-file-upload-button{
+	width:100%;
+	color:white;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	border-radius:5px;
+	background:#222121;
+}
+
+
