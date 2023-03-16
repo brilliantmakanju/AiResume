@@ -41,11 +41,11 @@ import Link from "next/link"
 					</ul>
 				</div>
 				<div className="hidden md:flex " >
-					<Link href="/" className="flex items-center justify-between font-bold text-white bg-[#15254c] py-2.5 px-5 rounded-md " >Login</Link>
+					<Link href="login" className="flex items-center justify-between font-bold text-white bg-[#15254c] py-2.5 px-5 rounded-md " >Login</Link>
 				</div>
 				<button className={`flex md:hidden p-3 px-5 rounded-md   font-bold ${fixed ? "bg-[#0a1124] text-white " : " text-white bg-[#15254c]"} `} onClick={() => setMobile(!mobile) } >L</button>
 			</nav>
-			<div className={`${mobile ? "fixed left-0 top-0 w-full h-screen bg-[#030e1a]  z-[20] " : "fixed left-[-3000px]" } duration-300 ease-in-out  `} ></div>
+			<div className={`${mobile ? "fixed left-0 top-0 w-full h-screen   z-[20] " : "fixed left-[-3000px]" } duration-300 ease-in-out  `} ></div>
 			<div className={`${mobile ? "fixed left-0 top-0 w-[50%] h-screen opacity-80 z-[21] " : "fixed left-[-3000px] opacity-0 " } duration-500 ease-in-out  pt-[90px] flex flex-col gap-[150px] z-[19]  fixed left-0 top-0 w-[70%]  h-screen bg-[#0a1124] px-4 py-4 md:hidden`} >
 				<button className={`md:hidden p-3 px-5 rounded-md  absolute top-5 right-4 font-bold bg-[#15254c]`} onClick={() => setMobile(!mobile) } >X</button>
 				<div className="flex flex-col gap-3 text-white h-[20px]  " >

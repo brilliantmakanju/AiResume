@@ -3,10 +3,9 @@ import Link from "next/link"
 
  export default function Footer(){
 	return (
-		<footer className="font-serif grid grid-cols-1 pt-[10%] pb-[18.5%]  bg-[#16181f] shadow-md shadow-[#242121] relative px-[2%]  md:py-[3%] lg:py-[5%]  " >
+		<footer className="font-serif grid grid-cols-1 pt-[10%] pb-[18.5%]  bg-[#16181f] shadow-md shadow-[#242121] relative px-[2%]  md:py-[3%] lg:py-[3%]  " >
 			<div className="mb-[20px] border-b-2 border-white py-[5px] text-white font-bold px-[10px] pb-[10px]  " >
 				<h3>ResumeAi</h3>
-				<p>Resume Generation using one of the best AI in the world chatGPT Resume Generation using one of the best AI in the world chatGPT Resume Generation using one of the best AI in the world chatGPT Resume Generation using one of the best AI in the world chatGPTResume Generation using one of the best AI in the world chatGPT Resume Generation using one of the best AI in the world chatGPT Resume Generation using one of the best AI in the world chatGPT Resume Generation using one of the best AI in the world chatGPT</p>
 			</div>
 			<div className="grid grid-cols-1 gap-5 md:grid-cols-1 md:gap-5 lg:grid-cols-1 lg:gap-8 px-[2%] md:px-[1%] md:pb-[10%] py-[10%] pt-[2%]  " >
 				<div className="text-white md:flex md:flex-wrap md:items-center " >
