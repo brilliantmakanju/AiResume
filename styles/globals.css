@@ -19,7 +19,7 @@
 
 @layer base{
 	html{
-		@apply scroll-smooth lg:snap-y lg:snap-mandatory overflow-x-hidden italic font-serif antialiased
+		@apply scroll-smooth overflow-x-hidden italic font-serif antialiased
 	}
 	body{
 		@apply bg-[#c6c3be]
