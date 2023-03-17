@@ -30,7 +30,7 @@ import Link from "next/link"
 		<>
 			<nav className={`${ fixed ? "fixed top-0 left-0 w-full z-[19] bg-[#c6c3be] text-[#0a1124] shadow-md shadow-[#242121] flex justify-between items-center " : "text-white fixed top-0 left-0  w-full bg-transparent items-center flex justify-between " } transition-colors items-center  flex-wrap px-[3%] py-[3%]  md:px-[2%] md:py-[1%] `} >
 				<div className="flex justify-between items-center" >
-					<h3 className={` flex justify-between items-center font-bold md:text-2xl font-serif tracking-wide `} >WriteMyResume</h3>
+					<Link href="/" ><h3 className={` flex justify-between items-center font-bold md:text-2xl font-serif tracking-wide `} >WriteMyResume</h3></Link>
 				</div>
 				<div className="hidden md:flex items-center justify-between" >
 					<ul className=" text-[20px] flex justify-around font-bold items-center gap-10 " >

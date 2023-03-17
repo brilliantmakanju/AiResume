@@ -2,8 +2,8 @@ import Link from "next/link"
 import Image from "next/image"
 export default function AuthLogin(){
     return(
-        <section className=" h-screen  flex justify-center items-center mx-auto px-2 bg-no-repeat bg-cover "  style={{backgroundImage:"url(/resumeBg.jpg)"}}  >
-            <div className="flex flex-col items-center justify-start  backdrop-blur-sm border-2 border-[#15254c]  gap-1 p-2  rounded-md md:rounded-l-md h-[550px] w-[400px] md:w-[400px]  "  >
+        <section className=" h-screen  flex justify-center items-center py-[50%] md:py-[25%]  mx-auto px-2 bg-no-repeat bg-cover "  style={{backgroundImage:"url(/resumeBg.jpg)"}}  >
+            <div className="flex flex-col items-center justify-start backdrop-blur-sm border-2 border-[#15254c]  gap-1 p-2  rounded-md md:rounded-l-md h-[550px] w-[400px] md:w-[400px]  "  >
                 <div className="text-center text-white my-5 " >
                     <h3 className="text-[35px] font-extrabold  " >Login</h3>
                     <p className="font-bold text-[15px]  " >If you already a member, easily log in</p>
