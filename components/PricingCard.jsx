@@ -18,7 +18,7 @@ export default function Card(){
                     <li className="text-[18px] tracking-tight  " >Customisable Template</li>
                     <li className="text-[18px] tracking-tight  " >2-5 (Per week)</li>
                 </ul>
-                <Link href="/" className=" border-[#15254c] border-[2px] bg-[#003087] absolute bottom-5 text-white w-[70%] text-center mx-auto left-[40px] rounded-md font-bold py-2 hoverEffect " >Choose Plan</Link>
+                <Link href="/" className=" border-[#15254c] border-[2px] bg-[#003087] absolute bottom-5 text-white w-[70%] text-center mx-auto left-[40px] rounded-full font-bold py-2 hoverEffect " >Choose Plan</Link>
           </div>
           <div className=" relative rounded-md  border-[#15254c] shadow-md shadow-black mx-auto h-[30em] w-[300px] px-5 py-10 hover:bg-[#16181f] hover:text-white hover:shadow-lg hover:shadow-[#15254c] hover:translate-y-[10px] duration-300 transition ease-in-out muhoverEffect " >
                 <span className="absolute top-0 left-0 w-full bg-[#003087] py-2 rounded-t-md text-center font-bold text-white " >MOST POPULAR</span>
@@ -33,7 +33,7 @@ export default function Card(){
                     <li className="text-[18px] tracking-tight  " >Customisable Template</li>
                     <li className="text-[18px] tracking-tight  " >2-5 (Per week)</li>
                 </ul>
-                <Link href="/" className=" border-[#15254c] border-[2px] bg-[#003087] absolute bottom-5 text-white w-[70%] text-center mx-auto left-[40px] rounded-md font-bold py-2 hoverEffect " >Choose Plan</Link>
+                <Link href="/" className=" border-[#15254c] border-[2px] bg-[#003087] absolute bottom-5 text-white w-[70%] text-center mx-auto left-[40px] rounded-full font-bold py-2 hoverEffect " >Choose Plan</Link>
           </div>
         </div>
     )
