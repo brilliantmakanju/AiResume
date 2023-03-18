@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function HomeIntroImage(){
     return(
-        <div className="lg:flex md:flex-col gap-5 relative h-[30em] hidden " >
+        <div className="lg:flex md:flex-col gap-5 py-20 relative h-[30em] hidden " >
             <div className="relative w-[50em] h-[30em] ml-[-1em] mt-[-3em]  " >
                 <Image
                         fill
