@@ -1,6 +1,6 @@
 import "../styles/globals.css"
-import Nav from "../components/Nav"
-import Footer from "../components/Footer"
+import Nav from "../extensions/base/Nav";
+
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
@@ -8,7 +8,6 @@ export default function RootLayout({ children }) {
             <body>
                 <Nav />
                 {children}
-                <Footer/>
             </body>
         </html>
     );

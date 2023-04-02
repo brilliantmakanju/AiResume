@@ -28,12 +28,12 @@ import Link from "next/link"
  
 	return (
 		<>
-			<nav className={`${ fixed ? "fixed top-0 left-0 w-full z-[19] bg-[#c6c3be] text-[#0a1124] shadow-md shadow-[#242121] flex justify-between items-center " : "text-white fixed top-0 left-0  w-full z-[19] bg-transparent items-center flex justify-between  " }   transition-colors items-center  flex-wrap px-[3%] py-[3%]  md:px-[2%] md:py-[1%] `} >
+			<nav className={`${ fixed ? "fixed top-0 left-0 w-full z-[19] bg-[#c6c3be] text-[#0a1124] shadow-md shadow-[#242121] flex justify-between items-center 2xl:conatiner mx-auto " : "text-white   w-full z-[19] bg-transparent items-center flex justify-between  " }   transition-colors items-center  flex-wrap px-[3%] py-[1.2%]   md:px-[2%] md:py-[1%]  2xl:container mx-auto `} >
 				<div className="flex justify-between items-center" >
-					<Link href="/" ><h3 className={` ${fixed ? "xl:text-[#0a1124]" : "xl:text-white"} flex justify-between items-center font-bold md:text-2xl font-serif tracking-wide `} >WriteMyResume</h3></Link>
+					<Link href="/" ><h3 className={` flex text-black justify-between items-center font-bold md:text-2xl font-serif tracking-wide `} >WriteMyResume</h3></Link>
 				</div>
 				<div className="hidden md:flex items-center  justify-between" >
-					<ul className={`${fixed ? "xl:text-[#0a1124]" : "xl:text-white" } text-[20px]  flex justify-around font-bold items-center gap-10 `} >
+					<ul className={`${fixed ? "2xl:text-[#0a1124]" : "2xl:text-white" } text-[20px]  flex justify-around font-bold items-center gap-10 `} >
 						<li><Link href="/" >Guide</Link></li>
 						<li><Link href="/">About</Link></li>
 						<li><Link href="/">Pricing</Link></li>
@@ -45,7 +45,7 @@ import Link from "next/link"
 				</div>
 				<button className={`flex md:hidden p-3 px-5 rounded-md   font-bold ${fixed ? "bg-[#0a1124] text-white " : " text-white bg-[#15254c]"} `} onClick={() => setMobile(!mobile) } >L</button>
 			</nav>
-			<div className={`${mobile ? "fixed left-0 top-0 w-full h-screen   z-[20] " : "fixed left-[-3000px]" } duration-300 ease-in-out  `} ></div>
+			<div className={`${mobile ? "fixed right-0 top-0 w-full h-screen bg-[#16181f] opacity-80  z-[20] " : "fixed right-[-300px] opacity-0 " } fixed right-0 w-full duration-300 ease-in-out  `} ></div>
 			<div className={`${mobile ? "fixed left-0 top-0 w-[50%] h-screen opacity-90 z-[21] " : "fixed left-[-3000px] opacity-0 " } duration-500 ease-in-out  pt-[90px] flex flex-col gap-[150px] z-[19]  fixed left-0 top-0 w-[70%]  text-white h-screen bg-[#0a1124] px-4 py-4 md:hidden`} >
 				<button className={`md:hidden p-3 px-5 rounded-md  absolute top-5 right-4 font-bold bg-[#15254c]`} onClick={() => setMobile(!mobile) } >X</button>
 				<div className="flex flex-col gap-3 text-white h-[20px]  " >
@@ -60,7 +60,7 @@ import Link from "next/link"
 						<li><Link href="contact" onClick={() => setMobile(!mobile) }>Contact</Link></li>
 						<li><Link href="login" onClick={() => setMobile(!mobile) }>Login</Link></li>
 					</ul>
-					<Link href="register" className="flex absolute bottom-5 left-3 justify-center items-center p-3 w-[10em] bg-[#003087] border-3 border-white font-bold rounded-full " onClick={() => setMobile(!mobile) }>Join Us</Link>
+					<Link href="register" className="flex absolute bottom-20 left-3 justify-center items-center p-3 w-[10em] bg-[#003087] border-3 border-white font-bold rounded-full " onClick={() => setMobile(!mobile) }>Join Us</Link>
 				</div>
 			</div>
 		</>
