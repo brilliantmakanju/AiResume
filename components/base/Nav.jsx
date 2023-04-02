@@ -28,7 +28,7 @@ import Link from "next/link"
  
 	return (
 		<>
-			<nav className={`${ fixed ? "fixed top-0 left-0 w-screen z-[19] bg-[#c6c3be] text-[#0a1124] shadow-md shadow-[#242121] flex justify-between items-center px-auto mx-auto " : "text-white   w-screen z-[19] bg-transparent items-center flex justify-between 2xl:container 2xl:mx-auto " }   transition-colors items-center  flex-wrap px-[3%] py-[1.2%]   md:px-[2%] md:py-[1%]   `} >
+			<nav className={`${ fixed ? "fixed top-0 left-0 w-screen z-[19] bg-[#c6c3be] text-[#0a1124] shadow-md shadow-[#242121]  flex justify-between items-center px-auto mx-auto " : "text-white   w-screen bg-transparent items-center flex justify-between 2xl:container 2xl:mx-auto " }   transition-colors items-center  flex-wrap px-[3%]  py-[1.2%]   md:px-[2%] md:py-[1%]   `} >
 				<div className="flex justify-between items-center" >
 					<Link href="/" ><h3 className={` flex text-black justify-between items-center font-bold md:text-2xl font-serif tracking-wide `} >WriteMyResume</h3></Link>
 				</div>
