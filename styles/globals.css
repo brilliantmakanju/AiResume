@@ -15,7 +15,7 @@
 		@apply scroll-smooth overflow-x-hidden italic font-serif antialiased
 	}
 	body{
-		@apply bg-[#c6c3be] 
+		@apply bg-[#061A40]
 	}
 	section{
 		@apply bg-no-repeat bg-cover bg-center bg-fixed mx-1 my-2

@@ -102,7 +102,7 @@ import {useState, useEffect} from "react"
                         <button onClick={(e) => Tab2(e) } className="p-2 mx-auto rounded w-[50%] text-white bg-[#15254c] " >Next</button>
                     </div>
                 </div>
-                <div className={`grid grid-cols-1  `} >
+                <div className={`${tab3 ? "grid grid-cols-1" : "hidden" } `} >
                     <div className="grid grid-cols-1 w-[90vw]  px-4 gap-5 mb-5 " >
                         <div className="flex flex-col gap-4" >
                             <h3 className='font-bold' >Skill</h3>
