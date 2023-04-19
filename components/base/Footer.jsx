@@ -3,7 +3,7 @@ import Link from "next/link"
 
  export default function Footer(){
 	return (
-		<footer className="font-serif grid grid-cols-1 pt-[10%] pb-[18.5%]  bg-[#1480babb]  shadow-md shadow-[#242121] relative px-[2%] 2xl:container mx-auto md:py-[3%] lg:py-[3%] ">
+		<footer className="font-serif grid grid-cols-1 pt-[10%] pb-[18.5%]  bg-[#1480babb]  shadow-md shadow-[#242121] relative px-[2%] 2xl:container mx-auto md:py-[3%] lg:py-[3%] w-full ">
 			<div className="mb-[20px] border-b-2 border-white py-[5px] text-white font-bold px-[10px] pb-[10px]  " >
 				<Link href="/" ><h3>ResumeAi</h3></Link>
 			</div>

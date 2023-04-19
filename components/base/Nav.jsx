@@ -51,10 +51,10 @@ export default function Nav() {
               <Link href="/">Features</Link>
             </li>
             <li className="transition duration-300 hover:text-[#1481ba] ">
-              <Link href="/">Generators</Link>
+              <Link href="cv">Generators</Link>
             </li>
             <li className="transition duration-300 hover:text-[#1481ba] ">
-              <Link href="/">Pricing</Link>
+              <Link href="pricing">Pricing</Link>
             </li>
             <li className="transition duration-300 hover:text-[#1481ba] ">
               <Link href="contact">Blog</Link>

@@ -3,13 +3,13 @@ import Image from "next/image";
 import InputBox from "../../components/Input";
 export default function AuthLogin() {
   return (
-    <main className="h-screen flex justify-center items-center   mx-auto px-2 mb-[100px] ">
+    <main className="h-screen flex  place-content-center my-[10vh] lg:my-[10vh] px-2 z-[0] lg:h-[100%] ">
       <div className="flex flex-col items-center justify-start backdrop-blur-sm border-2 border-[#1481ba] gap-1 p-2  rounded-md md:rounded-l-md h-[480px] w-[400px] md:w-[400px]  ">
         <div className="text-center text-white my-5 ">
           <h3 className="text-[35px] font-extrabold  ">Login</h3>
           <p className="font-bold text-[15px]  ">Already a member? </p>
         </div>
-        <form className="px-6 flex flex-col gap-5 items-center ">
+        <form className="px-1 w-[350px] flex flex-col gap-5 items-center ">
           <InputBox type="text" placeholder="Username " required />
           <InputBox type="password" placeholder="Password " required />
           <button className="p-2 rounded w-full text-white bg-[#1481ba]">

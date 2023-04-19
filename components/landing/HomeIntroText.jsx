@@ -18,13 +18,13 @@ export default function HomeIntroText() {
       </p>
       <div className="flex flex-row gap-5 items-center justify-center md:justify-start md:mt-3 mt-6 mx-3 ">
         <Link
-          href="/"
+          href="login"
           className=" px-14 w-full text-center py-2 md:px-5 md:py-2 rounded-md  text-[#f3f3f4] font-bold border-2 bg-[#1481ba] border-[#f3f3f4] "
         >
           Login
         </Link>
         <Link
-          href="/"
+          href="register"
           className="rounded-md px-14 py-2 md:px-5 md:py-2 text-center w-full text-[#1481ba] bg-[#f3f3f4] font-bold border-2  border-[#1481ba] "
         >
           Register

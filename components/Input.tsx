@@ -20,7 +20,7 @@ const InputBox: React.FC<InputProps> = ({
       placeholder={placeholder}
       required={required}
       disabled={disabled}
-      className="h-[2.5em] bg-transparent rounded-t-md px-5 pl-1 w-[120%] border-0 outline-none border-b-2 border-[#1481ba] placeholder:text-white placeholder:font-bold text-white font-bold "
+      className="h-[2.5em] bg-transparent rounded-t-md px-5 pl-1 w-[100%] border-0 outline-none border-b-2 border-[#1481ba] placeholder:text-white placeholder:font-bold text-white font-bold "
     />
   );
 };
