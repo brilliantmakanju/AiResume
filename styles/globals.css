@@ -65,7 +65,6 @@
 
 
 ::-webkit-scrollbar-track {
-	background:transparent;
 	display:none;
 	z-index:0;
 }

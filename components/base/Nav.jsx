@@ -30,9 +30,9 @@ export default function Nav() {
       <nav
         className={`${
           fixed
-            ? "fixed top-0 left-0 w-screen z-[19] bg-[#1481ba] text-[#0a1124] shadow-md shadow-[#242121]  flex justify-between items-center px-auto mx-auto "
-            : "text-white   w-screen bg-transparent items-center flex justify-between 2xl:container 2xl:mx-auto "
-        }   transition-colors items-center  flex-wrap px-[3%]  py-[1.2%]   md:px-[2%] md:py-[1%]   `}
+            ? "fixed top-0 left-0 w-screen z-[19] bg-[#1481ba] text-[#fafbff] shadow-md shadow-[#242121] flex justify-between items-center px-auto mx-auto "
+            : "text-white   w-screen   items-center flex justify-between 2xl:container 2xl:mx-auto bg-[#061A40]   "
+        }   transition-colors items-center  flex-wrap px-[3%]  py-[1.2%]   md:px-[2%] md:py-[1%]  z-[19]  `}
       >
         <div className="flex justify-between items-center ">
           <Link href="/">
@@ -64,7 +64,9 @@ export default function Nav() {
         <div className="hidden md:flex ">
           <Link
             href="login"
-            className="flex items-center justify-between font-bold text-white bg-[#1481ba] py-2.5 px-5 rounded-md "
+            className={`flex items-center justify-between font-bold text-white  py-2.5 px-5 rounded-md ${
+              fixed ? "bg-[#061A40]" : "bg-[#1481ba]"
+            } transition-colors duration-300 `}
           >
             Login
           </Link>
@@ -90,7 +92,7 @@ export default function Nav() {
           mobile
             ? "fixed left-0 top-0 w-[50%] h-screen opacity-90 z-[21] "
             : "fixed left-[-3000px] opacity-0 "
-        } duration-500 ease-in-out  pt-[90px] flex flex-col gap-[150px] z-[19]  fixed left-0 top-0 w-[70%]  text-white h-screen bg-[#0a1124] px-4 py-4 md:hidden`}
+        } duration-500 ease-in-out  pt-[90px] flex flex-col gap-[150px] z-[19]  fixed left-0 top-0 w-[70%]  text-white h-screen bg-[#1480bab4] px-4 py-4 md:hidden`}
       >
         <button
           className={`md:hidden p-3 px-5 rounded-md  absolute top-5 right-4 font-bold bg-[#15254c]`}
@@ -138,7 +140,7 @@ export default function Nav() {
           </ul>
           <Link
             href="register"
-            className="flex absolute bottom-20 left-3 justify-center items-center p-3 w-[10em] bg-[#003087] border-3 border-white font-bold rounded-full "
+            className="flex absolute bottom-20 left-3 justify-center items-center p-3 w-[15em] border-[2.5px] border-[#061A40]  bg-[#1480ba]   font-bold rounded-full "
             onClick={() => setMobile(!mobile)}
           >
             Join Us
