@@ -118,7 +118,7 @@ export default function Nav() {
               </Link>
             </li>
             <li>
-              <Link href="cv" onClick={() => setMobile(!mobile)}>
+              <Link href="generators" onClick={() => setMobile(!mobile)}>
                 Generator
               </Link>
             </li>
