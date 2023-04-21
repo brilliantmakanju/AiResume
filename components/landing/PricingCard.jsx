@@ -35,7 +35,7 @@ export default function Card() {
         <div>
           <h3 className="font-bold text-[20px] py-2 ">Pro</h3>
           <h3 className="font-bold text-[40px]  flex items-center gap-2 ">
-            $8 <span className="text-[15px] text-[#003087] ">/Month</span>
+            $17 <span className="text-[15px] text-[#003087] ">/Month</span>
           </h3>
           <p className="text-[15px] py-2 font-bold ">
             Resume Generation using one of the best AI in the world{" "}
@@ -57,9 +57,6 @@ export default function Card() {
         </Link>
       </div>
       <div className=" relative rounded-md  border-2 border-[#fafbf4]  shadow-md shadow-black mx-auto bg-[#e4dedee0] h-[30em] w-[300px] px-5 py-10 hover:bg-[#1481ba] hover:text-white hover:shadow-lg hover:shadow-[#15254c]  duration-300 transition ease-in-out muhoverEffect md:hover:scale-[1.03] ">
-        <span className="absolute top-0 left-0 w-full bg-[#061A40] border-2 border-[#061A40] py-2 rounded-t-md text-center font-bold text-white">
-          MOST POPULAR
-        </span>
         <div>
           <h3 className="font-bold text-[20px] py-2 ">Pro</h3>
           <h3 className="font-bold text-[40px]  flex items-center gap-2 ">

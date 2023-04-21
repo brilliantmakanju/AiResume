@@ -1,6 +1,6 @@
-import GeneratorBox from "../../components/Generator/Box";
+import GeneratorBox from "../../../components/Generator/Box";
 
-const Generator = () => {
+const ResumeHome = () => {
   return (
     <main className="h-full flex flex-col gap-10 md:flex-col md:flexnowrap lg:flexnowrap xl:flex-nowrap lg:px-5 md:gap-20 justify-center items-center place-content-center  lg:my-[10vh] px-2 z-[0] lg:h-[100%] pb-[5em] lg:pb-[1em] lg:py-[1em] ">
       <div className="flex flex-col gap-10 justify-center items-center lg:flex-row lg:mb-[100px] lg:gap-16 ">
@@ -17,25 +17,25 @@ const Generator = () => {
       <div className="flex flex-col gap-10 md:flex-wrap lg:flex-row lg:flexnowrap xl:flex-nowrap lg:px-5 md:gap-20 justify-center items-center place-content-center   ">
         <GeneratorBox
           href="/generators/resume"
-          title="Resume Generator"
+          title="Text to Resume"
           Dest="Generator"
-          subheading="Generate your Resume"
+          subheading="Create your Resume Now "
           image="/resumeHomeAiSocial.jpg"
           context="Create your perfect resume using our ai "
         />
         <GeneratorBox
           href="/generators/cv"
-          title="Cover Letter Generator"
-          Dest="Cover"
-          subheading="Generate your CV "
+          title="Speech to Resume"
+          Dest="Generate"
+          subheading="Create your Resume Now "
           image="/resumeHomeAiSocial.jpg"
           context="Creta eyour resume using any of the following , ranging from text , images or voice "
         />
         <GeneratorBox
           href="/"
-          title="Portfolio Generator"
+          title="Image to Resume"
           Dest="Generator"
-          subheading="Generate your Portfolio "
+          subheading="Create your Resume Now "
           image="/resumeHomeAiSocial.jpg"
           context="Creta eyour resume using any of the following , ranging from text , images or voice "
         />
@@ -44,4 +44,4 @@ const Generator = () => {
   );
 };
 
-export default Generator;
+export default ResumeHome;
