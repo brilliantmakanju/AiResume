@@ -5,7 +5,7 @@ export default function RootLayout({ children }: { children: React.ReactNode; })
     return (
         <html lang="en">
             <head />
-            <body className="flex flex-col gap-10 2xl:container 2xl:mx-auto" >
+            <body className="flex flex-col  2xl:container 2xl:mx-auto" >
                 <Nav  />
                 {children}
                 <Footer/>

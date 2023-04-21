@@ -7,7 +7,7 @@ export default function Head() {
       <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta
         name="description"
-        content="Code Craftsmen is the best blog for programmer giving you the best idea on everything you build"
+        content="AiRiter the most accurate AI to help you generate a good , competent and modern resume, cv and Portfolio"
       />
     </>
   );

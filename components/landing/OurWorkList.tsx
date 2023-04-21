@@ -9,7 +9,7 @@ interface OurWorkListProps {
 
 const OurWorkList: React.FC<OurWorkListProps> = ({ icon, title, content }) => {
   return (
-    <div className="text-white p-3 w-full lg:py-10 lg:w-[23.5%] bg-[#061A40] border-2 border-[#fafbf3]  rounded-md flex flex-col gap-3 transition-colors duration-300 ">
+    <div className="text-white p-3 w-full lg:py-10 lg:w-[23.5%] bg-[#061A40] border-2 border-[#fafbf3]  rounded-md flex flex-col gap-3 hover:bg-[#1481ba] ease-in-out hover:scale-[1.05] transition-colors duration-300 ">
       <div className="relative w-[120px] h-[120px] mx-auto place-content-center flex justify-center items-center rounded-full overflow-hidden mt-3 lg:mt-[-20px]  ">
         <Image
           fill

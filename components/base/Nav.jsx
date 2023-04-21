@@ -47,16 +47,16 @@ export default function Nav() {
           <ul
             className={`2xl:text-white text-[20px]  flex justify-around font-bold items-center gap-10 `}
           >
-            <li className="transition duration-300 hover:text-[#1481ba] ">
+            <li className="transition duration-300 ">
               <Link href="/">Features</Link>
             </li>
-            <li className="transition duration-300 hover:text-[#1481ba] ">
-              <Link href="cv">Generators</Link>
+            <li className="transition duration-300 ">
+              <Link href="generators">Generators</Link>
             </li>
-            <li className="transition duration-300 hover:text-[#1481ba] ">
+            <li className="transition duration-300 ">
               <Link href="pricing">Pricing</Link>
             </li>
-            <li className="transition duration-300 hover:text-[#1481ba] ">
+            <li className="transition duration-300  ">
               <Link href="contact">Blog</Link>
             </li>
           </ul>
@@ -104,26 +104,26 @@ export default function Nav() {
           <h3
             className={`text-white flex justify-between items-center font-bold text-2xl font-serif tracking-wide `}
           >
-            WriteMyResume
+            AiRiter
           </h3>
           <p className="text-md tracking-tighter pr-4 ">
             Welcome to the future of resume, cover letter and proposal creation
           </p>
         </div>
-        <div className="flex items-center justify-between">
-          <ul className="text-white flex flex-col text-left justify-around font-bold items-center gap-7 ">
+        <div className="flex items-center justify-between ">
+          <ul className="text-white flex flex-col text-left justify-around font-bold items-start place-content-start ml-[20px] gap-7 ">
             <li>
               <Link href="/" onClick={() => setMobile(!mobile)}>
-                Guide
+                Feature
               </Link>
             </li>
             <li>
-              <Link href="/" onClick={() => setMobile(!mobile)}>
-                About
+              <Link href="cv" onClick={() => setMobile(!mobile)}>
+                Generator
               </Link>
             </li>
             <li>
-              <Link href="/" onClick={() => setMobile(!mobile)}>
+              <Link href="pricing" onClick={() => setMobile(!mobile)}>
                 Pricing
               </Link>
             </li>
