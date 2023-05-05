@@ -1,14 +1,15 @@
 export default function Head() {
-  return (
-    <>
-     <title>Join | ResumeAI</title>
-      <link rel="icon" href="/favicon.ico" />
-      <meta content="width=device-width, initial-scale=1" name="viewport" />
-       <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
-      <meta name="description" content="Signup now and create your AI based resume and Cover Letter" />
-    </>
-
-
-  )
-}
-
+    return (
+      <>
+        <title>LuneDial | Signup</title>
+        <link rel="icon" href="/logo/logo.png" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta
+          name="description"
+          content=""
+        />
+      </>
+    );
+  }
+  
